@@ -1,3 +1,9 @@
+td.table {
+  vertical-align: bottom;
+  background-color: rgb(234, 243, 243);
+  color: red;
+  align:"center";
+}
 .linki {
   color:whitesmoke;
   font-size: 22px;
@@ -14,7 +20,6 @@
 .shadow {
   text-shadow: 2px 2px 7px rgb(231, 25, 25);
   font-style: italic;
-
 }
 .effect {
   text-shadow: 0 1px 0 #ccc,
@@ -30,7 +35,11 @@
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
 }
-
+.neon{
+  text-shadow: 3px 5px 23px #FF0000;
+  font-style: italic;
+}
+  
 * {
   box-sizing: border-box;
 }
@@ -38,7 +47,7 @@
 .column {
   float: left;
   padding: 10px;
-  height:auto;
+  height:670px;
   font-family: serif;
   font-size: 27px;
   text-shadow: 1px 1px 0 #444;
@@ -85,7 +94,7 @@ figcaption {
     text-align: center;
 }
 .footer {
-  background-color: rgb(231, 199, 199);
+  background-color: rgb(250, 123, 123);
 }
 .note {
         text-decoration: underline;

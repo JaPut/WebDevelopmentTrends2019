@@ -1,8 +1,5 @@
 td.table {
-  vertical-align: bottom;
-  background-color: rgb(234, 243, 243);
-  color: red;
-  align:"center";
+  height: 25px;
 }
 .linki {
   color:whitesmoke;
@@ -10,7 +7,9 @@ td.table {
   font-weight: bold;
   background-color: black;
 }
-
+.img_rest {
+    border-radius: 100%;
+  } 
 .h2 {
     text-align: center;
     font-size: 50px;
